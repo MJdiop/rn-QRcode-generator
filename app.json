@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-QRcode-generator",
-    "slug": "rn-QRcode-generator",
+    "name": "rn-qrcode-generator",
+    "slug": "rn-qrcode-generator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -28,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aca1b482-08e5-4912-b25c-1bbd3d3e167b"
+      }
+    },
+    "owner": "mjdiop"
   }
 }
