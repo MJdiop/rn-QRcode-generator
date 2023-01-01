@@ -2,6 +2,7 @@
   "name": "rn-qrcode-generator",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "author": "MJdiop",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,11 +12,23 @@
   "dependencies": {
     "expo": "~47.0.9",
     "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-qrcode-svg": "^6.1.2",
+    "react-native-svg": "13.4.0",
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@tsconfig/react-native": "^2.0.3",
+    "@types/jest": "^29.2.5",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.70.8",
+    "@types/react-native-popup-dialog": "^0.16.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "typescript": "^4.9.4"
   },
   "private": true
 }
